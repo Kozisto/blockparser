@@ -85,8 +85,8 @@ static double getMem() {
 
 #if defined LITECOIN
     static const size_t gHeaderSize = 80;
-    static auto kCoinDirName = ".litecoin";
-    static const uint32_t gExpectedMagic = 0xdbb6c0fb;
+    static auto kCoinDirName = ".quarkcoin";
+    static const uint32_t gExpectedMagic = 0xfca402dc;
 #endif
 
 #if defined DARKCOIN
