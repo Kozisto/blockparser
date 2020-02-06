@@ -552,7 +552,7 @@ static int getCoinType() {
         #endif
 
         #if defined(LITECOIN)
-            48
+            58
         #endif
 
         #if defined(BITCOIN)
@@ -994,7 +994,7 @@ const char *getInterestingAddr() {
 
     #elif defined(LITECOIN)
 
-        "LKvTVnkK2rAkJXfgPdkaDRgvEGvazxWS9o"
+        "QKvTVnkK2rAkJXfgPdkaDRgvEGvazxWS9o"
 
     #elif defined(DARKCOIN)
 
